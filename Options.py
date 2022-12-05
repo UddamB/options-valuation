@@ -43,8 +43,8 @@ class BlackScholes:
         _d2 = self.d2(S, K, T, r, sigma)
         return 1 - norm.cdf(_d2)
 
-print (BlackScholes.d1(192, 190, 0.0136986, 0.05, 0.15))
-print (BlackScholes.d2(1, 192, 190, 0.0136986, 0.05, 0.15))
+print (BlackScholes.d1(192, 190, 0.0136986, 0.05, 0.15)) #Test1
+
 
 
 
