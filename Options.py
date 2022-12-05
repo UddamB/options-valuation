@@ -44,12 +44,3 @@ class BlackScholes:
         return 1 - norm.cdf(_d2)
 
 print (BlackScholes.d1(192, 190, 0.0136986, 0.05, 0.15)) #Test1
-
-
-
-
-
-
-
-
-
